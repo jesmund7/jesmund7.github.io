@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ASH</title>
+	<link rel="stylesheet" type="text/css" href="resume.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Vollkorn" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<a href="https://bulbapedia.bulbagarden.net/wiki/Ash_Ketchum"><img src="profile.png" width="100" height="100"></a>
+		<h1>Ash Ketchum</h1>
+		<h2>Pokémon Trainer</h2>
+	</header>
+	<div>
+		<p>At some point in his early life, Ash went on a field trip in a rainy forest and got lost. Scared to the point of tears, he was forced to hide in a hollow tree trunk. A group of local Pokémon joined him and cheered him up, which was partially what motivated him to become a Pokémon Trainer.
+		Ash also enrolled in Professor Oak's Pokémon Summer Camp when he was young. One day, another camper named Serena got lost in the forest and wounded her leg after getting startled by a Poliwag. Ash, who was looking for the Poliwag, came to her rescue and wrapped a handkerchief around the wounded knee to brace it. He then helped her up and guided her out of the forest.
+		At some point before starting their journeys, Ash was friends with Gary Oak until they both fished out a Poké Ball on both their lines. After arguing about who would keep it, they broke it in two, each keeping one half as a reminder of that day.</p>
+	</div>
+	<div>
+		<h3>Profile</h3>
+		<ul>
+			<li>Age: 10 years old</li>
+			<li>Gender: Male</li>
+			<li>Hometown: Pallet Town</li>
+			<li>Region: Kanto</li>
+			<li>Favourite Pokémon: Pikachu</li>
+		</ul>
+
+		<h3>Best Atributes</h2>
+		<ul>
+			<li>Fast</li>
+			<li>Decisive</li>
+			<li>Dedicated</li>
+		</ul>
+		<h3>Best Pokémon owned</h3>
+		<table border="1">
+		<tr>
+		<th>Pokémon</th>
+		<th>Name</th>
+		<th>Type</th>
+		<th>Region</th>
+	</tr>
+	<tr>
+		<td><img src="https://cdn.bulbagarden.net/upload/thumb/b/b1/151Mew.png/250px-151Mew.png"></td>
+		<td>Mew</td>
+		<td>Psychic</td>
+		<td>Unknown</td>
+	</tr>
+	<tr>
+		<td><img src="https://i2.wp.com/gamesandjunk.net/wp-content/uploads/2016/03/Celebi.png"></td>
+		<td>Celebi</td>
+		<td>Psychic/Grass</td>
+		<td>Unknown</td>
+	</tr>
+		<tr>
+		<td><img src="https://pro-rankedboost.netdna-ssl.com/wp-content/uploads/2016/08/Blissey-Pokemon-Go.png"></td>
+		<td>Blissy</td>
+		<td>Normal</td>
+		<td>Kanto</td>
+	</tr>
+
+	</table>
+
+	</div>
+	<div id="wBest" class="hidden">
+		<form>
+		<h3>Which Best Pokémon I own is the best?</h3>
+		<input type="radio" name="poke">Mew<br>
+		<input type="radio" name="poke">Celebi<br>
+		<input type="radio" name="poke">Blissy<br>
+		<input type="Submit" value="submit">
+		</form>
+		<p>To read more about me, click on my face above or click <a href="https://bulbapedia.bulbagarden.net/wiki/Ash_Ketchum">here</a></p>
+	</div>
+	<br>
+	<button id="comment" align=center> Click here to Vote of the best Pokemon
+	</button>
+	
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+	<script>
+		$(document).ready(function(){
+			$("#comment").click(function(){
+				$("#wBest").removeClass('hidden');
+			})
+		})
+	</script>
+
+</body>
+</html>

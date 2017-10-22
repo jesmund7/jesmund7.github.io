@@ -1,0 +1,55 @@
+body{
+	margin: 0px
+}
+header{
+	text-align: center;
+	text-shadow: 2px 2px grey;
+	background-image: url(backgd.jpg);
+	background-position: center;
+	color:white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+div{
+	font-family: 'Alegreya Sans', sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+p{
+	font-family: 'Vollkorn', serif;
+}
+td{
+	text-align: center;
+	padding:20px;
+	background-color: white;
+}
+th{
+	text-align: center;
+	padding:20px;
+	background-color: pink;
+}
+
+table{
+	margin-left: 100px;
+
+}
+body{
+	font-family: 'Alegreya Sans', sans-serif;
+	background-color: #CCD6DD;
+}
+
+form{
+	line-height: 30px
+}
+
+h3{
+	font-family: 'Concert One', cursive;
+}
+button{
+	text-align: center;
+}
+
+.hidden{
+	display:none;
+}
